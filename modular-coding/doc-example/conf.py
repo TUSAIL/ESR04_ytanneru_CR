@@ -6,6 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+import sys
+
 project = 'Sphinx Testing'
 copyright = '2023, Yeswanth Sai Tanneru'
 author = 'Yeswanth Sai Tanneru'
@@ -14,7 +17,8 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+sys.path.insert(0, os.path.abspath("../temperature"))
+extensions = ['myst_parser','sphinx.ext.autodoc']
 
 source_suffix = ['.rst','.md']
 

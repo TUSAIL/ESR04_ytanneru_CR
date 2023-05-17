@@ -9,8 +9,9 @@ Welcome to Sphinx Testing's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-
+   
+   feature-a.md
+   api.rst
 
 Indices and tables
 ==================

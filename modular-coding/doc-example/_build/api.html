@@ -44,7 +44,10 @@
               <!-- Local TOC -->
               <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Python API</a><ul>
-<li><a class="reference internal" href="#conversion">Conversion</a></li>
+<li><a class="reference internal" href="#module-temp_conversion">Conversion</a><ul>
+<li><a class="reference internal" href="#temp_conversion.fahrenheit_to_kelvin"><code class="docutils literal notranslate"><span class="pre">fahrenheit_to_kelvin()</span></code></a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -75,8 +78,29 @@
              
   <section id="python-api">
 <h1>Python API<a class="headerlink" href="#python-api" title="Permalink to this heading"></a></h1>
-<section id="conversion">
-<h2>Conversion<a class="headerlink" href="#conversion" title="Permalink to this heading"></a></h2>
+<section id="module-temp_conversion">
+<span id="conversion"></span><h2>Conversion<a class="headerlink" href="#module-temp_conversion" title="Permalink to this heading"></a></h2>
+<p>### Watch this video: 
+<a class="reference external" href="https://youtu.be/CFRhGnuXG-4">https://youtu.be/CFRhGnuXG-4</a></p>
+<p>### Exercise: extract functions from the following (terrible) code.
+Some things to keep in mind:
+- Keep the functions pure (i.e.: no interaction with their environment)
+- Good interfaces (input/output) make them testable
+- Try to keep modules similarly sized (not a must, but a good rule-of-thumb)
+- Use good naming practices to describe the functionality</p>
+<p>python=</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="temp_conversion.fahrenheit_to_kelvin">
+<span class="sig-prename descclassname"><span class="pre">temp_conversion.</span></span><span class="sig-name descname"><span class="pre">fahrenheit_to_kelvin</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#temp_conversion.fahrenheit_to_kelvin" title="Permalink to this definition"></a></dt>
+<dd><p>This function converts the temperature value from Fahrenheit to Kelvin</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>temperature (float): Value of the temperature in Fahrenheit</p>
+</dd>
+<dt>Returns:</dt><dd><p>float/String: Returns the modified value of the temperature in Kelvin, given that the entered input is valid. If the input value is not valid, returns a string prompting the invalidity.</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 </section>
 
